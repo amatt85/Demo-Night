@@ -23,7 +23,8 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+color: 	#E8B200}
 
 section {
   padding: 100px 0; }
@@ -37,7 +38,8 @@ section {
     text-transform: none;
     font-style: italic;
     font-weight: 400;
-    margin-bottom: 75px; }
+    margin-bottom: 75px;
+  color:grey; }
 
 @media (min-width: 768px) {
   section {
@@ -113,7 +115,7 @@ body {
         font-size: 1.25em; } }
 
 header.masthead {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/BuySmartDemo1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -138,7 +140,9 @@ header.masthead {
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      color: #E8B200;
+  }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -149,7 +153,9 @@ header.masthead {
       font-style: italic;
       font-size: 40px;
       line-height: 40px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+    color: grey;
+  }
     header.masthead .intro-text .intro-heading {
       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
@@ -157,14 +163,24 @@ header.masthead {
       font-size: 75px;
       line-height: 75px;
       margin-bottom: 50px; } }
+#services
+{background-color: ;}
+#portfolio
+{background-color: black;}
+
+#team
+{background-color: ;}
+#contact
+{background-color:black;}
 
 .service-heading {
   margin: 15px 0;
-  text-transform: none; }
-
+  text-transform: none;
 #portfolio .portfolio-item {
   margin: 0 0 15px;
-  right: 0; }
+  right: 0;
+background-color: grey;
+}
   #portfolio .portfolio-item .portfolio-link {
     cursor: pointer;
     display: block;
